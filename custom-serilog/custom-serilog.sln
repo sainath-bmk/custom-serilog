@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "custom-serilog", "custom-se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "custom-serilog-sinks-datadog", "..\custom-serilog-sinks-datadog\custom-serilog-sinks-datadog.csproj", "{5446B600-5501-49CF-ACA1-25414105CC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-serilog-sinks-periodicbatching", "..\custom-serilog-sinks-periodicbatching\custom-serilog-sinks-periodicbatching.csproj", "{0A73DAF6-9635-40DB-A6DD-787D3FF0B06C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "custom-serilog-sinks-periodicbatching", "..\custom-serilog-sinks-periodicbatching\custom-serilog-sinks-periodicbatching.csproj", "{0A73DAF6-9635-40DB-A6DD-787D3FF0B06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-serilog-console-sink", "..\custom-serilog-console-sink\custom-serilog-console-sink.csproj", "{B3B305AD-BBAD-4CAD-B486-784C4C22DA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serilog-test", "..\serilog-test\serilog-test.csproj", "{A9B96651-AC7F-43D9-BEB0-7452C6F3B967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0A73DAF6-9635-40DB-A6DD-787D3FF0B06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A73DAF6-9635-40DB-A6DD-787D3FF0B06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A73DAF6-9635-40DB-A6DD-787D3FF0B06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B305AD-BBAD-4CAD-B486-784C4C22DA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B305AD-BBAD-4CAD-B486-784C4C22DA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B305AD-BBAD-4CAD-B486-784C4C22DA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B305AD-BBAD-4CAD-B486-784C4C22DA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B96651-AC7F-43D9-BEB0-7452C6F3B967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B96651-AC7F-43D9-BEB0-7452C6F3B967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B96651-AC7F-43D9-BEB0-7452C6F3B967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B96651-AC7F-43D9-BEB0-7452C6F3B967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

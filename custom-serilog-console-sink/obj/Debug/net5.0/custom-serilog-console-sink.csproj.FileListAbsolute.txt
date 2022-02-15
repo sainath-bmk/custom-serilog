@@ -1,0 +1,15 @@
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.csprojAssemblyReference.cache
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.AssemblyInfoInputs.cache
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.AssemblyInfo.cs
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.csproj.CoreCompileInputs.cache
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\custom-serilog-console-sink.deps.json
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\custom-serilog-console-sink.dll
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\ref\custom-serilog-console-sink.dll
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\custom-serilog-console-sink.pdb
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\Serilog.dll
+D:\Code\custom-serilog\custom-serilog-console-sink\bin\Debug\net5.0\Serilog.pdb
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.csproj.CopyComplete
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.dll
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\ref\custom-serilog-console-sink.dll
+D:\Code\custom-serilog\custom-serilog-console-sink\obj\Debug\net5.0\custom-serilog-console-sink.pdb
