@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GXJhZ3VKgUxJ6fjhvNjsjcX29LV8UHZhVtyPZ4DP6tgNFMB3WqiL0RD0HKbEhY+lTmQF9n9MSqT5BeI+kJmi1w==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\custom-serilog\\custom-serilog-sinks-periodicbatching\\custom-serilog-sinks-periodicbatching.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

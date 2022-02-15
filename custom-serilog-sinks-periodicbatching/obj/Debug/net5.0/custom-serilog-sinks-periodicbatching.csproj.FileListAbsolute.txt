@@ -1,0 +1,15 @@
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.AssemblyInfoInputs.cache
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.AssemblyInfo.cs
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.csproj.CoreCompileInputs.cache
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.deps.json
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\ref\Serilog.Sinks.PeriodicBatching.dll
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.pdb
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\Serilog.dll
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\bin\Debug\net5.0\Serilog.pdb
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.csprojAssemblyReference.cache
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\custom-serilog-sinks-periodicbatching.csproj.CopyComplete
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\ref\Serilog.Sinks.PeriodicBatching.dll
+D:\Code\custom-serilog-sinks-datadog\custom-serilog-sinks-periodicbatching\obj\Debug\net5.0\Serilog.Sinks.PeriodicBatching.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kMonVTM4CaEeChbo2cc92dAHfOB0TVDf07KYfmFlbJM7QxiJjnLjsw8bPXFx26vEKVUp6K8gLdiUM9XWV6EzMQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\custom-serilog\\custom-serilog-sinks-datadog\\custom-serilog-sinks-datadog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

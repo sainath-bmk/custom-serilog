@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KGi0Aw+/mgYnUfGviwW7aDlhfXlLwdgWticHsoIyLNrazQ8Y+bLXZN94FHflPYKom4mOk8JYneqkxaLRQeecGQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\custom-serilog\\custom-serilog\\custom-serilog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\p7164753\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

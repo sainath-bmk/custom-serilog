@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Serilog.Sinks.PeriodicBatching</RootNamespace>
+    <AssemblyName>Serilog.Sinks.PeriodicBatching</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\custom-serilog\custom-serilog.csproj" />
+  </ItemGroup>
+
+</Project>
