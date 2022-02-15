@@ -485,6 +485,12 @@ namespace Serilog.Core
             Verbose((Exception?)null, messageTemplate, propertyValues);
         }
 
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public void Security(string messageTemplate, params object?[]? propertyValues)
+        {
+            Security((Exception?)null, messageTemplate, propertyValues);
+        }
+
         /// <summary>
         /// Write a log event with the <see cref="LogEventLevel.Verbose"/> level and associated exception.
         /// </summary>
@@ -560,6 +566,12 @@ namespace Serilog.Core
         public void Verbose(Exception? exception, string messageTemplate, params object?[]? propertyValues)
         {
             Write(LogEventLevel.Verbose, exception, messageTemplate, propertyValues);
+        }
+
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public void Security(Exception? exception, string messageTemplate, params object?[]? propertyValues)
+        {
+            Write(LogEventLevel.Security, exception, messageTemplate, propertyValues);
         }
 
         /// <summary>

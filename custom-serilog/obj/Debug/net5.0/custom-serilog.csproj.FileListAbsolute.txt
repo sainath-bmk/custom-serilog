@@ -9,3 +9,15 @@ D:\Code\custom-serilog-sinks-datadog\custom-serilog\bin\Debug\net5.0\Serilog.pdb
 D:\Code\custom-serilog-sinks-datadog\custom-serilog\obj\Debug\net5.0\Serilog.dll
 D:\Code\custom-serilog-sinks-datadog\custom-serilog\obj\Debug\net5.0\ref\Serilog.dll
 D:\Code\custom-serilog-sinks-datadog\custom-serilog\obj\Debug\net5.0\Serilog.pdb
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\custom-serilog.csprojAssemblyReference.cache
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\custom-serilog.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\custom-serilog.AssemblyInfoInputs.cache
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\custom-serilog.AssemblyInfo.cs
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\custom-serilog.csproj.CoreCompileInputs.cache
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\Serilog.dll
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\ref\Serilog.dll
+D:\Code\custom-serilog\custom-serilog\obj\Debug\net5.0\Serilog.pdb
+D:\Code\custom-serilog\custom-serilog\bin\Debug\net5.0\Serilog.deps.json
+D:\Code\custom-serilog\custom-serilog\bin\Debug\net5.0\Serilog.dll
+D:\Code\custom-serilog\custom-serilog\bin\Debug\net5.0\ref\Serilog.dll
+D:\Code\custom-serilog\custom-serilog\bin\Debug\net5.0\Serilog.pdb

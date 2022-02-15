@@ -104,6 +104,10 @@ namespace Serilog.Core.Pipeline
         {
         }
 
+        public void Security(string messageTemplate, params object?[]? propertyValues)
+        {
+        }
+
         public void Verbose(Exception? exception, string messageTemplate)
         {
         }
@@ -121,6 +125,9 @@ namespace Serilog.Core.Pipeline
         }
 
         public void Verbose(Exception? exception, string messageTemplate, params object?[]? propertyValues)
+        {
+        }
+        public void Security(Exception? exception, string messageTemplate, params object?[]? propertyValues)
         {
         }
 

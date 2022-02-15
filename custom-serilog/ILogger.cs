@@ -439,6 +439,9 @@ namespace Serilog
 #endif
             ;
 
+        [MessageTemplateFormatMethod("messageTemplate")]
+        void Security(string messageTemplate, params object?[]? propertyValues);
+
         /// <summary>
         /// Write a log event with the <see cref="LogEventLevel.Verbose"/> level and associated exception.
         /// </summary>
@@ -520,6 +523,10 @@ namespace Serilog
             => Write(LogEventLevel.Verbose, exception, messageTemplate, propertyValues)
 #endif
             ;
+
+        [MessageTemplateFormatMethod("messageTemplate")]
+        void Security(Exception? exception, string messageTemplate, params object?[]? propertyValues);
+
 
         /// <summary>
         /// Write a log event with the <see cref="LogEventLevel.Debug"/> level.

@@ -405,6 +405,156 @@ namespace Serilog
         }
 
         /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level.
+        /// </summary>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <example>
+        /// Log.Security("Staring into space, wondering if we're alone.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security(string messageTemplate)
+        {
+            Write(LogEventLevel.Security, messageTemplate);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level.
+        /// </summary>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security("Staring into space, wondering if we're alone.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T>(string messageTemplate, T propertyValue)
+        {
+            Write(LogEventLevel.Security, messageTemplate, propertyValue);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level.
+        /// </summary>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue0">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue1">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security("Staring into space, wondering if we're alone.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T0, T1>(string messageTemplate, T0 propertyValue0, T1 propertyValue1)
+        {
+            Write(LogEventLevel.Security, messageTemplate, propertyValue0, propertyValue1);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level.
+        /// </summary>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue0">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue1">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue2">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security("Staring into space, wondering if we're alone.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T0, T1, T2>(string messageTemplate, T0 propertyValue0, T1 propertyValue1, T2 propertyValue2)
+        {
+            Write(LogEventLevel.Security, messageTemplate, propertyValue0, propertyValue1, propertyValue2);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level.
+        /// </summary>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security("Staring into space, wondering if we're alone.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security(string messageTemplate, params object[] propertyValues)
+        {
+            Logger.Security(messageTemplate, propertyValues);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level and associated exception.
+        /// </summary>
+        /// <param name="exception">Exception related to the event.</param>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <example>
+        /// Log.Security(ex, "Staring into space, wondering where this comet came from.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security(Exception exception, string messageTemplate)
+        {
+            Write(LogEventLevel.Security, exception, messageTemplate);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level and associated exception.
+        /// </summary>
+        /// <param name="exception">Exception related to the event.</param>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security(ex, "Staring into space, wondering where this comet came from.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T>(Exception exception, string messageTemplate, T propertyValue)
+        {
+            Write(LogEventLevel.Security, exception, messageTemplate, propertyValue);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level and associated exception.
+        /// </summary>
+        /// <param name="exception">Exception related to the event.</param>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue0">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue1">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security(ex, "Staring into space, wondering where this comet came from.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T0, T1>(Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1)
+        {
+            Write(LogEventLevel.Security, exception, messageTemplate, propertyValue0, propertyValue1);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level and associated exception.
+        /// </summary>
+        /// <param name="exception">Exception related to the event.</param>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValue0">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue1">Object positionally formatted into the message template.</param>
+        /// <param name="propertyValue2">Object positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security(ex, "Staring into space, wondering where this comet came from.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security<T0, T1, T2>(Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1, T2 propertyValue2)
+        {
+            Write(LogEventLevel.Security, exception, messageTemplate, propertyValue0, propertyValue1, propertyValue2);
+        }
+
+        /// <summary>
+        /// Write a log event with the <see cref="LogEventLevel.Security"/> level and associated exception.
+        /// </summary>
+        /// <param name="exception">Exception related to the event.</param>
+        /// <param name="messageTemplate">Message template describing the event.</param>
+        /// <param name="propertyValues">Objects positionally formatted into the message template.</param>
+        /// <example>
+        /// Log.Security(ex, "Staring into space, wondering where this comet came from.");
+        /// </example>
+        [MessageTemplateFormatMethod("messageTemplate")]
+        public static void Security(Exception exception, string messageTemplate, params object[] propertyValues)
+        {
+            Logger.Security(exception, messageTemplate, propertyValues);
+        }
+
+
+        /// <summary>
         /// Write a log event with the <see cref="LogEventLevel.Debug"/> level.
         /// </summary>
         /// <param name="messageTemplate">Message template describing the event.</param>
